@@ -22,7 +22,7 @@ import android.widget.Toast;
 import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity {
-TextView name,family,compani,test;
+TextView name,family,compani;
 EditText Ename,Efamily,Ecompani;
 Button button;
 CheckBox Check;
@@ -33,7 +33,7 @@ int i;
         setContentView(R.layout.activity_main);
         name = findViewById(R.id.Tx);
         family = findViewById(R.id.Tx1);
-        test= findViewById(R.id.t_test);
+
         compani = findViewById(R.id.Tx2);
         Ename = findViewById(R.id.Etx1);
         Efamily = findViewById(R.id.Etx2);
