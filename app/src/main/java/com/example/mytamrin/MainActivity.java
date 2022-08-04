@@ -33,7 +33,6 @@ int i;
         setContentView(R.layout.activity_main);
         name = findViewById(R.id.Tx);
         family = findViewById(R.id.Tx1);
-
         compani = findViewById(R.id.Tx2);
         Ename = findViewById(R.id.Etx1);
         Efamily = findViewById(R.id.Etx2);
