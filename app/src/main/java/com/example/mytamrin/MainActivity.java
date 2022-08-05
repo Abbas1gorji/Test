@@ -7,6 +7,7 @@ package com.example.mytamrin;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -23,6 +24,7 @@ import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity {
 TextView name,family,compani;
+String Admin_name = "Abbas",Admin_Pass = "123";
 EditText Ename,Efamily,Ecompani;
 Button button;
 CheckBox Check;
@@ -34,13 +36,15 @@ int i;
         name = findViewById(R.id.Tx);
         family = findViewById(R.id.Tx1);
         compani = findViewById(R.id.Tx2);
+
+
         Ename = findViewById(R.id.Etx1);
         Efamily = findViewById(R.id.Etx2);
         Ecompani = findViewById(R.id.Etx);
         button = findViewById(R.id.Bt);
         Check = findViewById(R.id.checkBox);
         name.setText("name ");
-        name.setTextColor(getResources().getColor(R.color.teal_200));
+        name.setTextColor(getResources().getColor(R.color.Blue));
         Ename.setHint("Name");
        // Ename.setHintTextColor(getResources().getColor(R.color.purple_500));
         Efamily.setHint("Family");
